@@ -350,6 +350,7 @@ body {width: 92%; margin: 0 auto} /* Center page without wrapper */
 }
 .work li p{
   clear: both;
+  margin-bottom: 1em;
 }
 
 /* Portfolio */
