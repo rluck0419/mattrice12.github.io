@@ -144,10 +144,6 @@ body {width: 92%; margin: 0 auto} /* Center page without wrapper */
   -o-background-size: cover;
   background-size: cover;
 }
-
-.clearfix {
-  margin-bottom:250px
-}
 .clearfix:after {
  content: ".";
  visibility: hidden;
