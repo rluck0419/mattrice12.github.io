@@ -144,6 +144,10 @@ body {width: 92%; margin: 0 auto} /* Center page without wrapper */
   -o-background-size: cover;
   background-size: cover;
 }
+
+.clearfix {
+  margin-bottom:250px
+}
 .clearfix:after {
  content: ".";
  visibility: hidden;
@@ -314,7 +318,6 @@ body {width: 92%; margin: 0 auto} /* Center page without wrapper */
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   border-radius: 4px;
-  margin-bottom: 250px;
 }
 .item-box i{
   float: left;
