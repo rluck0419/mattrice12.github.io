@@ -675,7 +675,7 @@ Change widths as necessary
    border-left: 1px solid #f1f1f1;
  }
  /* COLUMN GRID */
- .g1,.g2,.g3 {display:inline; float: left}
+ .g1,.g2,.g3 {display:block; float: left}
 
  /* 2 COLUMN GRID */
  .g1 {width:40.0%}
