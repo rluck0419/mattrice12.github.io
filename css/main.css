@@ -123,7 +123,12 @@ body {width: 92%; margin: 0 auto} /* Center page without wrapper */
 .wrapper{
   margin: 0 auto;
 }
-
+#main3head{
+  text-align: center;
+}
+.sny-icon-box{
+  margin-bottom:10px;
+}
 .block {
   margin-bottom: 250px;
 }
