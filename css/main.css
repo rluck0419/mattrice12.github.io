@@ -131,6 +131,7 @@ body {width: 92%; margin: 0 auto} /* Center page without wrapper */
 }
 .block {
   margin-bottom: 50px;
+  margin-top: 50px;
 }
 /* Utility */
 .chromeframe {
