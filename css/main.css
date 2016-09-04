@@ -677,6 +677,7 @@ Change widths as necessary
    display: fixed;
    margin-left: -50px;
    width: 140px;
+   position: fixed;
   }
  /* COLUMN GRID */
  .g1,.g2,.g3 {display:block; float: left}
