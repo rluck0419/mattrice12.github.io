@@ -674,10 +674,10 @@ Change widths as necessary
   .sidebar{
    padding-left: 20px;
    border-left: 1px solid #f1f1f1;
-   display: fixed;
    margin-left: -50px;
    width: 140px;
    position: fixed;
+   float: right;
   }
  /* COLUMN GRID */
  .g1,.g2,.g3 {display:block; float: left}
