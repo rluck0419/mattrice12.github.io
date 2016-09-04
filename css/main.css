@@ -203,6 +203,7 @@ body {width: 92%; margin: 0 auto} /* Center page without wrapper */
   border: 1px solid #f1f1f1;
   box-shadow: 0px 6px #c0392b;
   border-radius: 0px 0px 4px 4px;
+  margin-left: 100px;
 }
 
 
@@ -674,7 +675,9 @@ Change widths as necessary
    padding-left: 20px;
    border-left: 1px solid #f1f1f1;
    display: fixed;
- }
+   margin-left: -50px;
+   width: 140px;
+  }
  /* COLUMN GRID */
  .g1,.g2,.g3 {display:block; float: left}
 
