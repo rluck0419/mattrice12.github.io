@@ -370,6 +370,7 @@ body {width: 92%; margin: 0 auto} /* Center page without wrapper */
 .image img{
   margin: 0px;
   width: 100%;
+  height: 85px;
 }
 .image-overlay {
   position: absolute;
