@@ -762,3 +762,8 @@ padding: 9px;
   color: #fff;
   border-bottom: 1px dashed;
 }
+
+.desc
+{
+  font-size: 1.3em;
+}
