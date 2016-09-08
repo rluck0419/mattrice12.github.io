@@ -98,8 +98,20 @@
                                     </div>
                                 </div>
                             </div>
-                            <p>SoundHouse is a procedurally-generated ambient music app. Upon visiting the webpage, visitors are greeted by a uniquely-generated piece of ambient piano music. After creating an account and/or logging in, users may choose preferences to shape the sounds of their ambient sessions. I designed and created this application as my final project at the Iron Yard.</p>
+                            <p>
+                              SoundHouse is a procedurally-generated collaborative ambient music app.
+                              Upon visiting the webpage, visitors are greeted by a uniquely-generated piece of ambient piano music.
+                              After creating an account and/or logging in, users may choose preferences to shape the sounds of their ambient sessions.
+                              If more than one user logs in, the users will both provide their sound preferences to the session.
+                              The music also changes keys procedurally, as to keep the music from stagnating.
+                              The app is built primarily in Ruby on Rails, streaming audio files from Amazon S3 via JavaScript and CoffeeScript.
+                              By using Redis, I was able to use an Action Cable job to fetch new audio files as users join the session.
+                              Similarly, a second job fetches new audio files as the key changes over time.
+                              I designed and created this application as my final project at the Iron Yard.
+                            </p>
                         </div>
+                    </section>
+                    <section class="clearfix block">
                         <div class="g1">
                             <div class="image">
                                 <img src="images/Teamshare.png" alt="Teamshare App">
@@ -109,7 +121,13 @@
                                     </div>
                                 </div>
                             </div>
-                            <p>TeamShare is a team-based file-sharing app, created by a team of four backend Iron Yard developers (myself included). We created the app as part of a week-long exercise in working directly with a client business. This app allows the client's users to upload and view text and image files. Users can then grant read-and-write and read-only permissions, based on the file's creator and user's admin status. Additionally, the app features keyword searching, team creation, team-based permissions, recursion, and Cucumber testing.</p>
+                            <p>
+                              TeamShare is a team-based file-sharing app, created by a team of four backend Iron Yard developers (myself included).
+                              We created the app as part of a week-long exercise in working directly with a client business.
+                              This app allows the client's users to upload and view text and image files.
+                              Users can then grant read-and-write and read-only permissions, based on the file's creator and user's admin status.
+                              Additionally, the app features keyword searching, team creation, team-based permissions, recursion, and Cucumber testing.
+                            </p>
                         </div>
                         <div class="g1">
                             <div class="image">
