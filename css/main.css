@@ -168,6 +168,9 @@ body {width: 92%; margin: 0 auto} /* Center page without wrapper */
   padding-bottom: 1em;
   clear: both;
 }
+.rel-break{
+  padding-bottom: 1em;
+}
 /* Backgrounds */
 
 .bg-1{
